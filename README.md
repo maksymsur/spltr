@@ -28,7 +28,7 @@ for number of trivial ML tasks. Hope it may be useful for you as well.
 
 # Installation
 
-`pip install Spltr`
+pip install Spltr
 
 # License
 

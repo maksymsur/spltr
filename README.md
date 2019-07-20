@@ -13,18 +13,18 @@ for number of trivial ML tasks. Hope it may be useful for you as well.
 
 # Main Features
 
-Spltr.process_x|y : converts loaded Input/Target data into PyTorch Tensors 
+`Spltr.process_x|y` : converts loaded Input/Target data into PyTorch Tensors 
     with ability to i) preview, ii) define tensor dtype, iii) set the desired 
     device of returned tensor (CPU/GPU), iv) use selected rows/columns from 
     Input/Target data sources or a single data table for processing 
     (for CSV and Pandas DataFrame only).
            
-Spltr.reshape_xy : reshapes subsets.
+`Spltr.reshape_xy` : reshapes subsets.
     
-Spltr.split_data : splits data subsets into train, test (validation) 
+`Spltr.split_data` : splits data subsets into train, test (validation) 
     PyTorch DataLoader objects.
     
-Spltr.clean_space : optimizes mamory by deleting unnecessary variables.
+`Spltr.clean_space` : optimizes mamory by deleting unnecessary variables.
 
 # Installation
 

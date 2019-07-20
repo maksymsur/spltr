@@ -24,7 +24,7 @@ for number of trivial ML tasks. Hope it may be useful for you as well.
 `Spltr.split_data` : splits data subsets into train, test (validation) 
     PyTorch DataLoader objects.
     
-`Spltr.clean_space` : optimizes mamory by deleting unnecessary variables.
+`Spltr.clean_space` : optimizes memory by deleting unnecessary variables.
 
 # Installation
 

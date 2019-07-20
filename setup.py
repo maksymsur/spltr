@@ -15,9 +15,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     keywords = ['PyTorch', 'Data loader', 'Data splitter', 'DataLoader'],
     classifiers=[
-        "Programming Language :: Python :: 3.6+",
-        "Intended Audience :: Science / Research / ML Professionals",
-        "Topic :: Deep Learning / Data Preparation",
+        "Programming Language :: Python :: 3",
+        "Intended Audience :: Science/Research",        
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],

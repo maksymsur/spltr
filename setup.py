@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Spltr-Maksym",
+    name="Spltr",
     version="0.1",
     author="Maksym Surzhynskyi",
     author_email="maksym.surzhynskyi@gmail.com",

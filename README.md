@@ -174,7 +174,7 @@ splt.split_data(splits=(0.3,0.2), perm_seed=8)
            DataLoaders with Batch Size 1 and Shufle False are created
 
 
-Setting up a very simple neural network. Pls note that the network architecture is comprised only to demonstrate how `Spltr` may be adopted. That's not an optimal way to solve Iris classification problem. 
+Setting up a very simple neural network. Pls note that the network architecture is comprised only to demonstrate how `Spltr` may be adopted. That's not an optimal way to solve an Iris classification problem. 
 
 
 ```python

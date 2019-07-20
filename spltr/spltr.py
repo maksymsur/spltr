@@ -40,7 +40,7 @@ class Spltr:
     Spltr.split_data : splits data subsets into train, test (validation) 
         PyTorch DataLoader objects.
     
-    Spltr.clean_space : optimizes mamory by deleting unnecessary variables.
+    Spltr.clean_space : optimizes memory by deleting unnecessary variables.
     """
     
     def __init__(self, x, y):       
@@ -386,7 +386,7 @@ class Spltr:
                 
     def clean_space(self):
         """
-        Optimize mamory by deleting unnecessary variables.
+        Optimize memory by deleting unnecessary variables.
         Advised to be performed once no class functions are to be called.
         """
         

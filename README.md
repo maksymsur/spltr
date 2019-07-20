@@ -1,7 +1,7 @@
 
 # What is it?
 
-`Spltr` is a simple PyTorch-based data loader and splitter.
+**`Spltr`** is a simple PyTorch-based data loader and splitter.
 It may be used to load i) arrays and ii) matrices or iii) Pandas DataFrames 
 and iv) CSV files containing numerical data with the subsequent split it into 
 train, test (validation) subsets in the form of PyTorch DataLoader objects.

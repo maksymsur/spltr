@@ -48,7 +48,7 @@ https://github.com/maksymsur/Spltr
 
 # Example of usage
 
-Hereunder we'll build a simple neural network and describe how the `Spltr` may be used in the process.
+Hereunder we'll build a simple neural network and describe how `Spltr` may be used in the process.
 
 
 But first, let's import all the necessary modules:

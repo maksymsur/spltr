@@ -42,9 +42,7 @@ https://github.com/maksymsur/Spltr
 # Dependencies
 
 + torch >= 1.1.0
-
 + numpy >= 1.16.4
-
 + pandas >= 0.24.2
 
 # What's new
@@ -163,7 +161,7 @@ splt.process_x(preview=True, usecols={0:4})
     [X]: Tensor of shape torch.Size([150, 4]) was created
 
 
-And continue with processing **`y`** by using just the 5th column named 'variety'. Note that CSV columns may be selected as per official pd.read_csv documentation.
+And continue with processing **`y`** by using just the 5th column named 'variety'. Note that CSV columns may be selected by [Int] or [String] as per official pd.read_csv documentation.
 
 
 ```python

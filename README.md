@@ -208,7 +208,7 @@ splt.clean_space()
     All variables are deleted. Only Train-Test (Validation) sets are left.
 
 
-**STEP 8:** Setting up a very simple neural network. Pls mind that the presented network architecture is comprised only to demonstrate how `Spltr` may be adopted. That's not an optimal way to solve Iris classification problem.
+**STEP 8:** Setting up a very simple neural network. Pls mind that the presented network architecture is comprised only to demonstrate how `Spltr` may be adopted. That's not an optimal way to solve an Iris classification problem.
 
 
 ```python

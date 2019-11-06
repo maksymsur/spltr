@@ -198,7 +198,7 @@ splt.split_data(splits=(0.3,0.2), perm_seed=3, batch_size=1, num_workers = 1, sh
     [X,y]: The Data is splitted into 3 datasets of length: Train 45, Test 30, Validation 75.
 
 
-**STEP 7:** Now let's clean unnecessary variables saved in the memory. This step may be especially useful if you are dealing with a huge datasets and don't want for `X,y tensors` to share the memory with `X,y DataLoader objects`.
+**STEP 7:** Now let's clean unnecessary variables saved in the memory. This step may be especially useful if you are dealing with a huge datasets and don't want for `X,y tensors` to share memory with `X,y DataLoader objects`.
 
 
 ```python

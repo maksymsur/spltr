@@ -1,4 +1,8 @@
-# What is it?
+# What's new
+
+* **Version 0.3.2** brings i) bug fixes and ii) extension of `.split_data` method by including native DataLoader methods like `num_workers`, `pin_memory`, `worker_init_fn`, `multiprocessing_context` and others as per PyTorch documentation.
+
+# About this package
 
 **`Spltr`** is a simple PyTorch-based data loader and splitter.
 It may be used to load i) arrays and ii) matrices or iii) Pandas 
@@ -44,10 +48,6 @@ https://github.com/maksymsur/Spltr
 + torch >= 1.1.0
 + numpy >= 1.16.4
 + pandas >= 0.24.2
-
-# What's new
-
-* **Version 0.3.2** brings i) bug fixes and ii) extension of `.split_data` method by including native DataLoader methods like `num_workers`, `pin_memory`, `worker_init_fn`, `multiprocessing_context` and others as per PyTorch documentation.
 
 # Example of usage
 

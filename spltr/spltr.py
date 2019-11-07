@@ -299,7 +299,7 @@ class Spltr:
         assert type(self.y) is torch.Tensor, "[y]: Expected PyTorch tensor as an input"
         assert len(self.x) == len(self.y), "[X,y] should be of the same length"                
         
-        # A random permutation of the datasets
+        # Random permutation of the datasets
         
         if perm_seed: 
             
@@ -329,7 +329,7 @@ class Spltr:
 
             self.xy_train, self.xy_test = random_split(self.dataset_xy, self.splits_)
             
-            # Creating a dataloader objects
+            # Creating dataloader objects
             self.xy_train = DataLoader(self.xy_train, **kwargs)
             self.xy_test = DataLoader(self.xy_test, **kwargs)             
             print(f'[X,y]: The Data is splited into 2 datasets of length: Train {self.train_length_}, Test {self.test_length_}.')
@@ -339,7 +339,7 @@ class Spltr:
         elif type(splits) is tuple or list:
             assert len(splits) < 3, "Too many split criterea are given. Expected no more than 2"
 
-            # Safety checks as for the type of the input data            
+            # Safety checks to identify the type of the input data            
             if len(splits) == 1:
                 assert splits[0] <=1, "Split value shall not be greater 1"
 
@@ -351,7 +351,7 @@ class Spltr:
 
                 self.xy_train, self.xy_test = random_split(self.dataset_xy, self.splits_)                
 
-                # Creating a dataloader objects                
+                # Creating dataloader objects                
                 self.xy_train = DataLoader(self.xy_train, **kwargs)
                 self.xy_test = DataLoader(self.xy_test, **kwargs) 
                 print(f'[X,y]: The Data is splitted into 2 datasets of length: Train {self.train_length_}, Test {self.test_length_}.')
@@ -365,7 +365,7 @@ class Spltr:
 
                 self.xy_train, self.xy_test, self.xy_val = random_split(self.dataset_xy, self.splits_)                
 
-                # Creating a dataloader objects                
+                # Creating dataloader objects                
                 self.xy_train = DataLoader(self.xy_train, **kwargs)
                 self.xy_test = DataLoader(self.xy_test, **kwargs)
                 self.xy_val = DataLoader(self.xy_val, **kwargs)                

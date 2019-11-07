@@ -128,7 +128,7 @@ import numpy as np
 from spltr import Spltr
 ```
 
-**STEP 5.1:** Now let's instantiate a Spltr object by including **`X,y`** datasets into it.
+**STEP 5.1:** Now let's instantiate a Spltr object by including **`X,y`** datasets into it. No data normalization procedures will be applied just to avoid overloading of this example.
 
 
 ```python

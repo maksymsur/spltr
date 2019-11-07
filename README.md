@@ -130,7 +130,7 @@ from spltr import Spltr
 
 **STEP 5.1:** Now let's instantiate a Spltr object by including **`X,y`** datasets into it. 
 
-No data normalization procedures will be applied just to avoid overloading of this example. Although, applying different types of normalization and creating separate Spltr objects for every of the predefined train-test (validation) datasets may lead to an interesting training mechanics and results.
+No data normalization procedures will be applied just to avoid overloading of this example. Although, using different types of normalization and creating separate Spltr objects for every of the predefined train-test (validation) datasets may lead to an interesting training mechanics and results.
 
 
 ```python

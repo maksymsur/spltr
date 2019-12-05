@@ -1,6 +1,6 @@
 # What's new
 
-* **Version 0.3.2** brings i) bug fixes and ii) extension of `.split_data` method by including native DataLoader arguments like `num_workers`, `pin_memory`, `worker_init_fn`, `multiprocessing_context` and others as per PyTorch documentation.
+* **Version 0.3.2** brings i) bug fixes and ii) extension of `.split_data` method by including native DataLoader parameters like `num_workers`, `pin_memory`, `worker_init_fn`, `multiprocessing_context` and others as per PyTorch documentation.
 
 # About this package
 

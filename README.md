@@ -212,6 +212,9 @@ splt.clean_space()
 
 **STEP 8:** Setting up a very simple neural network. Pls mind that the presented network architecture is comprised only to demonstrate how `Spltr` may be adopted. That's not an optimal way to solve an Iris classification problem.
 
+Note that depending on your system configuration a bug may be encountered if using `torch v.1.6`. It's a known [issue](https://discuss.pytorch.org/t/crashes-when-using-torch-max-in-torch-1-6-0/93376) caused by inaproproate behaviour of `torch.max` function.
+
+
 
 ```python
 from torch import nn, optim
